@@ -1,6 +1,6 @@
 // provider info
 provider "aws" {
-    region = var.region
+    region = "us-east-2"
 }
 
 resource "aws_vpc" "main" {
